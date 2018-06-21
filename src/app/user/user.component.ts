@@ -9,6 +9,6 @@ export class UserComponent {
   @Input() user;
   isMarked = false;
   onClick() {
-    this.isMarked = true;
+    this.isMarked = !this.isMarked;
   }
 }
